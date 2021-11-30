@@ -1,0 +1,32 @@
+{
+  "name": "xplisithuruhara2",
+  "version": "1.0.0",
+  "description": "Discord Music BOT for Eksplisit 2017",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grotiuss/xplisithuruhara2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grotiuss/xplisithuruhara2/issues"
+  },
+  "homepage": "https://github.com/grotiuss/xplisithuruhara2#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.8.2",
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@discordjs/voice": "^0.7.5",
+    "discord-api-types": "^0.25.1",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "libsodium-wrappers": "^0.7.9",
+    "nodemon": "^2.0.15",
+    "ytdl-core": "^4.9.1"
+  }
+}
