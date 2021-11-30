@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
@@ -29,9 +30,10 @@ client.on('messageCreate', msg => {
         const args = msg.content.slice(basic_prop.prefix.length).trim().split(/ +/);
         const cmd = args.shift();
         
-        if(cmd=='ping')
-        {
+        if(cmd=='ping') {
             msg.reply('pong')
+        } else {
+            console.log(args)
         }
     }
 
