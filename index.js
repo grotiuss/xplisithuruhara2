@@ -9,7 +9,7 @@ const client = new Discord.Client({ intents: intents })
 
 
 const basic_prop = {
-    token: "ODU0MDY3ODg1NzcyMTExOTAy.YMeisw.puH2CmpnGdXtCG9hsVwcBczgEp0",
+    token: process.env.DISCORD_TOKEN,
     prefix: "!"
 }
 
