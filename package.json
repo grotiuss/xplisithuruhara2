@@ -4,6 +4,7 @@
   "description": "Discord Music BOT for Eksplisit 2017",
   "main": "index.js",
   "scripts": {
+    "start": "npx nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,7 @@
     "@discordjs/voice": "^0.7.5",
     "@koenie06/discord.js-music": "^1.2.9",
     "discord-api-types": "^0.25.1",
+    "discord-player": "^5.2.0",
     "discord.js": "^13.3.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
